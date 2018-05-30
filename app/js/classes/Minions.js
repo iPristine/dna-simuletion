@@ -1,2 +1,0 @@
-// Vlad pidr
-class code
