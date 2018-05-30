@@ -31,12 +31,9 @@ gulp.task('sass', function () {
 gulp.task('js', function () {
     return gulp.src([
         'app/js/jquery.min.js',
-        'app/js/classes/Battleground.js',
-        'app/js/classes/Player.js',
-        'app/js/classes/AIPlayer.js',
-        'app/js/classes/HumanPlayer.js',        
-        'app/js/classes/GameController.js',
-        'app/js/common.js'
+        'app/js/classes/Map.js',
+        'app/js/classes/GameState.js',
+        'app/js/main.js'
     ])
         .pipe(concat('scripts.min.js'))
         .pipe(babel())
